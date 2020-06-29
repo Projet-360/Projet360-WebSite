@@ -1,54 +1,7 @@
-
-// DISPARITION DES FLECHE A LEUR SELECTION ET REAPARITION
-$("li.up").click(function () {
-    $(this).css({
-        opacity: '0',
-    });
-    $("li.down, li.left, li.right, li.return").click(function () {
-        $("li.up").css({
-            opacity: '1',
-        });
-    });
-});
-$("li.down").click(function () {
-    $(this).css({
-        opacity: '0',
-    });
-    $("li.up, li.left, li.right, li.return").click(function () {
-        $("li.down").css({
-            opacity: '1',
-        });
-    });
-});
-$("li.left").click(function () {
-    $(this).css({
-        opacity: '0',
-    });
-    $("li.up, li.down, li.right, li.return").click(function () {
-        $("li.left").css({
-            opacity: '1',
-        });
-    });
-});
-$("li.right").click(function () {
-    $(this).css({
-        opacity: '0',
-    });
-    $("li.up, li.down, li.left, li.return").click(function () {
-        $("li.right").css({
-            opacity: '1',
-        });
-    });
-});
-// FIN DISPARITION DES FLECHE A LEUR SELECTION ET REAPARITION
-
-
-
-
 //CHANGEMENTS DES COULEURS POUR SECTIONS
 $(".link-up").click(function () {
     $(".html-webdemo").css({
-        backgroundColor: '#BF7C41',
+        backgroundColor: '#008b22',
     });
 });
 $(".link-down").click(function () {
@@ -66,9 +19,9 @@ $(".link-right").click(function () {
         backgroundColor: '#D9B589',
     });
 });
-$(".link-return").click(function () {
+$(".link-home").click(function () {
     $(".html-webdemo").css({
-        backgroundColor: 'rgb(169, 169, 169)',
+        backgroundColor: '#040330',
     });
 });
 // FIN CHANGEMENTS DES COULEURS POUR SECTIONS
