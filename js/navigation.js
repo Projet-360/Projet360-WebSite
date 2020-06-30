@@ -1,7 +1,7 @@
 //CHANGEMENTS DES COULEURS POUR SECTIONS
 $(".link-up").click(function () {
     $(".html-webdemo").css({
-        backgroundColor: '#008b22',
+        backgroundColor: '#04498b',
     });
 });
 $(".link-down").click(function () {
@@ -21,7 +21,7 @@ $(".link-right").click(function () {
 });
 $(".link-home").click(function () {
     $(".html-webdemo").css({
-        backgroundColor: '#040330',
+        backgroundColor: '#180330',
     });
 });
 // FIN CHANGEMENTS DES COULEURS POUR SECTIONS
