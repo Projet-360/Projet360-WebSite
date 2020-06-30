@@ -248,5 +248,3 @@ $(".link-left").click(function () {
         opacity: '1',
     }, 500);
 }); 
-
-

@@ -4,8 +4,11 @@
     transition: background-color 1s;
 }
 
-
+* {
+    touch-action: none;
+}
 .html-webdemo {
+    touch-action: none;
 
     .scrollbar-container {
         position: absolute;
