@@ -1,26 +1,26 @@
 //CHANGEMENTS DES COULEURS sur HTML POUR SECTIONS
 $(".link-up").click(function () {
-    $(".html").css({
+    $("main").css({
         backgroundColor: '#04498b',
     });
 });
 $(".link-down").click(function () {
-    $(".html").css({
+    $("main").css({
         backgroundColor: '#8b6804',
     });
 });
 $(".link-left").click(function () {
-    $(".html").css({
+    $("main").css({
         backgroundColor: '#51048b',
     });
 });
 $(".link-right").click(function () {
-    $(".html").css({
+    $("main").css({
         backgroundColor: '#048b34',
     });
 });
-$(".link-home").click(function () {
-    $(".html").css({
+$(".link-center").click(function () {
+    $("main").css({
         backgroundColor: '#180330',
     });
 });
@@ -65,7 +65,7 @@ $(".section-center").css({
 // FIN PLACEMENT DE DEPART
 
 // BUTTON RETURN
-$(".link-home").click(function () {
+$(".link-center").click(function () {
     $(".section.image").animate({
         top: '-100vh',
         right: '0vw',
