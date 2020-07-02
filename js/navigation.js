@@ -35,21 +35,21 @@ $(".section.image").css({
     left: '0vw',
 });
 
-$(".section-down").css({
+$(".section.video").css({
     top: '100vh',
     right: '0vw',
     bottom: '-100vh',
     left: '0vw',
 });
 
-$(".section-left").css({
+$(".section.audio").css({
     top: '0vh',
     right: '100vw',
     bottom: '0vh',
     left: '-100vw',
 });
 
-$(".section-right").css({
+$(".section.web").css({
     top: '0vh',
     right: '-100vw',
     bottom: '0vh',
@@ -72,7 +72,7 @@ $(".link-home").click(function () {
         bottom: '100vh',
         left: '0vw',
     }, 900);
-    $(".section-down").animate({
+    $(".section.video").animate({
         top: '100vh',
         right: '0vw',
         bottom: '-100vh',
@@ -84,13 +84,13 @@ $(".link-home").click(function () {
         bottom: '0vh',
         left: '0vw',
     }, 900);
-    $(".section-right").animate({
+    $(".section.web").animate({
         top: '0vh',
         right: '-100vw',
         bottom: '0vh',
         left: '100vw',
     }, 900);
-    $(".section-left").animate({
+    $(".section.audio").animate({
         top: '0vh',
         right: '100vw',
         bottom: '0vh',
@@ -109,7 +109,7 @@ $(".link-up").click(function () {
         bottom: '0vh',
         left: '0vw',
     }, 900);
-    $(".section-down").animate({
+    $(".section.video").animate({
         top: '200vh',
         right: '0vw',
         bottom: '0vh',
@@ -121,13 +121,13 @@ $(".link-up").click(function () {
         bottom: '-100vh',
         left: '0vw',
     }, 900);
-    $(".section-right").animate({
+    $(".section.web").animate({
         top: '100vh',
         right: '100vw',
         bottom: '0vh',
         left: '100vw',
     }, 900);
-    $(".section-left").animate({
+    $(".section.audio").animate({
         top: '100vh',
         bottom: '-100vh',
         right: '100vw',
@@ -146,7 +146,7 @@ $(".link-down").click(function () {
         bottom: '200vh',
         left: '0vw',
     }, 900);
-    $(".section-down").animate({
+    $(".section.video").animate({
         top: '0vh',
         right: '0vw',
         bottom: '0vh',
@@ -158,13 +158,13 @@ $(".link-down").click(function () {
         bottom: '100vh',
         left: '0vw',
     }, 900);
-    $(".section-right").animate({
+    $(".section.web").animate({
         top: '-100vh',
         right: '-100vw',
         bottom: '100vh',
         left: '100vw',
     }, 900);
-    $(".section-left").animate({
+    $(".section.audio").animate({
         top: '-100vh',
         bottom: '100vh',
         right: '100vw',
@@ -183,7 +183,7 @@ $(".link-right").click(function () {
         bottom: '100vh',
         left: '-100vw',
     }, 900);
-    $(".section-down").animate({
+    $(".section.video").animate({
         top: '100vh',
         right: '100vw',
         bottom: '-100vh',
@@ -195,13 +195,13 @@ $(".link-right").click(function () {
         bottom: '0vh',
         left: '-100vw',
     }, 900);
-    $(".section-right").animate({
+    $(".section.web").animate({
         top: '0vh',
         right: '0vw',
         bottom: '0vh',
         left: '0vw',
     }, 900);
-    $(".section-left").animate({
+    $(".section.audio").animate({
         top: '0vh',
         bottom: '0vh',
         right: '200vw',
@@ -220,7 +220,7 @@ $(".link-left").click(function () {
         bottom: '100vh',
         left: '100vw',
     }, 900);
-    $(".section-down").animate({
+    $(".section.video").animate({
         top: '100vh',
         right: '-100vw',
         bottom: '-100vh',
@@ -232,13 +232,13 @@ $(".link-left").click(function () {
         bottom: '0vh',
         left: '100vw',
     }, 900);
-    $(".section-right").animate({
+    $(".section.web").animate({
         top: '0vh',
         right: '300vw',
         bottom: '0vh',
         left: '200vw',
     }, 900);
-    $(".section-left").animate({
+    $(".section.audio").animate({
         top: '0vh',
         right: '0vw',
         bottom: '0vh',
