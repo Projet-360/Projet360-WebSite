@@ -1,0 +1,138 @@
+.section-center {
+    .A-B-C {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-content: stretch;
+        -ms-flex-line-pack: stretch;
+        align-content: stretch;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+
+
+        .A-B-C-logo {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            animation: rotate 150s linear infinite;
+            filter: invert(1);
+        }
+
+        @keyframes rotate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+
+        .A-B-C-D {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(../svg/accueil.svg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+
+            .A-B-C-D-E {
+                width: 100%;
+                height: 50%;
+                display: flex;
+
+                .A-B-C-D-E-F {
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-flex-direction: row;
+                    -ms-flex-direction: row;
+                    flex-direction: row;
+                    -webkit-flex-wrap: nowrap;
+                    -ms-flex-wrap: nowrap;
+                    flex-wrap: nowrap;
+                    -webkit-justify-content: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -webkit-align-content: stretch;
+                    -ms-flex-line-pack: stretch;
+                    align-content: stretch;
+                    -webkit-align-items: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+
+                    width: 50%;
+                    height: 100%;
+
+                    .A-B-C-D-E-F-G {
+                        text-align: center;
+
+                        .A-B-C-D-E-F-G-I {
+                            text-decoration: none !important;
+
+                            &:hover {}
+
+                            .A-B-C-D-E-F-G-I-J {
+                                display: -ms-flexbox;
+                                display: -webkit-flex;
+                                display: flex;
+                                -webkit-flex-direction: column;
+                                -ms-flex-direction: column;
+                                flex-direction: column;
+                                -webkit-flex-wrap: nowrap;
+                                -ms-flex-wrap: nowrap;
+                                flex-wrap: nowrap;
+                                -webkit-justify-content: center;
+                                -ms-flex-pack: center;
+                                justify-content: center;
+                                -webkit-align-content: stretch;
+                                -ms-flex-line-pack: stretch;
+                                align-content: stretch;
+                                -webkit-align-items: center;
+                                -ms-flex-align: center;
+                                align-items: center;
+
+                                .A-B-C-D-E-F-G-I-J-h2 {
+                                    font-size: xxx-large;
+                                    margin: 0px;
+                                    font-family: "Raleway";
+                                    font-weight: bold;
+                                    text-transform: uppercase;
+                                }
+
+                                .A-B-C-D-E-F-G-I-J-h3 {
+                                    font-size: medium;
+                                    margin: 0px;
+                                    font-family: "Raleway";
+                                    font-weight: 400;
+
+                                }
+
+                                .A-B-C-D-E-F-G-I-J-h4 {
+                                    font-size: x-small;
+                                    width: 60%;
+                                    font-family: "Raleway";
+                                    font-weight: 300;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

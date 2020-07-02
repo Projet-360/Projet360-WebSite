@@ -1,4 +1,4 @@
-//CHANGEMENTS DES COULEURS POUR SECTIONS
+//CHANGEMENTS DES COULEURS sur HTML POUR SECTIONS
 $(".link-up").click(function () {
     $(".html-webdemo").css({
         backgroundColor: '#04498b',
