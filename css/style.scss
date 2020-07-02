@@ -11,6 +11,13 @@
 
 @import 'carousel.scss';
 
+
+
+body, .section-up-row-content { scroll-behavior: smooth }
+
+
+
+
 .html.center {
     background-color: rgb(169, 169, 169);
     background-image: linear-gradient(white, rgba(255, 255, 255, 0));
@@ -126,7 +133,7 @@
 
     
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 5vw;
 
 
@@ -165,7 +172,7 @@
 
     
     position: absolute;
-    top: 10px;
+    top: 0px;
     right: 5vw;
 
 
