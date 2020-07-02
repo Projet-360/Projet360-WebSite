@@ -7,6 +7,7 @@
 @import 'form.scss';
 @import 'navigation.scss';
 @import 'ChangeColor.scss';
+@import 'button.scss';
 
 @import 'carousel.scss';
 
@@ -72,12 +73,13 @@ body, .section-article-content { scroll-behavior: smooth }
         margin: 0;
         width: 100vw;
         height: 100vh;
+        background-color: #1a0331 ;
 
         main {
             width: 100vw;
             height: 100vh;
             transition: background-color 2s;
-            background-color: #1a0331;
+            background-color: #1a0331 ;
     
             background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(255, 255, 255, 0)));
             background: -o-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
