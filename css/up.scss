@@ -24,9 +24,8 @@
         .section-up-row-content {
             width: 90vw;
             height: 90vh;
-            border: 3px solid white;
+            border: 3px solid #04498b;
             overflow: hidden;
-            overflow-y: scroll;
             color: white;
 
 
@@ -397,7 +396,7 @@
 
 @media screen and (max-width: 768px) {
     .section-up-row-content-second-right {
-        display: none;
+        display: none !important;
     }
 
     .section-up-row-content-second-left {
