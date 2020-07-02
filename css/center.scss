@@ -27,10 +27,11 @@
 
         .A-B-C-logo {
             position: absolute;
-            width: 350px;
-            height: 350px;
+            width: 40vw;
+            height: auto;
             animation: rotate 150s linear infinite;
             filter: invert(1);
+            z-index: 1;
         }
 
         @keyframes rotate {
@@ -77,6 +78,7 @@
 
                     width: 50%;
                     height: 100%;
+                    z-index: 10;
 
                     .A-B-C-D-E-F-G {
                         text-align: center;
@@ -110,7 +112,7 @@
                                     font-size: xxx-large;
                                     margin: 0px;
                                     font-family: "Raleway";
-                                    font-weight: bold;
+                                    font-weight: 100;
                                     text-transform: uppercase;
                                 }
 

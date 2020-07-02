@@ -1,26 +1,26 @@
 //CHANGEMENTS DES COULEURS sur HTML POUR SECTIONS
 $(".link-up").click(function () {
-    $(".html-webdemo").css({
+    $(".html").css({
         backgroundColor: '#04498b',
     });
 });
 $(".link-down").click(function () {
-    $(".html-webdemo").css({
+    $(".html").css({
         backgroundColor: ' #5F8C4A',
     });
 });
 $(".link-left").click(function () {
-    $(".html-webdemo").css({
+    $(".html").css({
         backgroundColor: '#413F73',
     });
 });
 $(".link-right").click(function () {
-    $(".html-webdemo").css({
+    $(".html").css({
         backgroundColor: '#D9B589',
     });
 });
 $(".link-home").click(function () {
-    $(".html-webdemo").css({
+    $(".html").css({
         backgroundColor: '#180330',
     });
 });
@@ -247,4 +247,94 @@ $(".link-left").click(function () {
     $("li.return").animate({
         opacity: '1',
     }, 500);
-}); 
+});
+
+
+var ImageAccueil = document.getElementById("ImageAccueil");
+document.getElementById('LinkImageAccueil').onclick = function () {
+    var topPos = ImageAccueil.offsetTop
+    scrollTo(document.getElementById('section-up-row-content'), topPos - 30, 600);
+}
+
+var ImageApropos = document.getElementById("ImageApropos");
+document.getElementById('LinkImageApropos').onclick = function () {
+    var topPos = ImageApropos.offsetTop
+    scrollTo(document.getElementById('section-up-row-content'), topPos - 30, 600);
+}
+
+var ImageServices = document.getElementById("ImageServices");
+document.getElementById('LinkImageServices').onclick = function () {
+    var topPos = ImageServices.offsetTop
+    scrollTo(document.getElementById('section-up-row-content'), topPos - 30, 600);
+}
+
+var ImageContact = document.getElementById("ImageContact");
+document.getElementById('LinkImageContact').onclick = function () {
+    var topPos = ImageContact.offsetTop
+    scrollTo(document.getElementById('section-up-row-content'), topPos - 30, 600);
+}
+
+
+
+
+
+
+
+
+function scrollTo(element, to, duration) {
+    var start = element.scrollTop,
+        change = to - start,
+        currentTime = 0,
+        increment = 2;
+
+    var animateScroll = function () {
+        currentTime += increment;
+        var val = Math.easeInOutQuad(currentTime, start, change, duration);
+        element.scrollTop = val;
+        if (currentTime < duration) {
+            setTimeout(animateScroll, increment);
+        }
+    };
+    animateScroll();
+}
+
+//t = current time
+//b = start value
+//c = change in value
+//d = duration
+Math.easeInOutQuad = function (t, b, c, d) {
+    t /= d / 2;
+    if (t < 1) return c / 2 * t * t + b;
+    t--;
+    return -c / 2 * (t * (t - 2) - 1) + b;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
