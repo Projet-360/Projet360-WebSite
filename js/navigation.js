@@ -28,7 +28,7 @@ $(".link-home").click(function () {
 
 
 // PLACEMENT DE DEPART
-$(".section-up").css({
+$(".section.image").css({
     top: '-100vh',
     right: '0vw',
     bottom: '100vh',
@@ -66,7 +66,7 @@ $(".section-center").css({
 
 // BUTTON RETURN
 $(".link-home").click(function () {
-    $(".section-up").animate({
+    $(".section.image").animate({
         top: '-100vh',
         right: '0vw',
         bottom: '100vh',
@@ -103,7 +103,7 @@ $(".link-home").click(function () {
 
 // BUTTON HAUT
 $(".link-up").click(function () {
-    $(".section-up").animate({
+    $(".section.image").animate({
         top: '0vh',
         right: '0vw',
         bottom: '0vh',
@@ -140,7 +140,7 @@ $(".link-up").click(function () {
 
 // BUTTON BAS
 $(".link-down").click(function () {
-    $(".section-up").animate({
+    $(".section.image").animate({
         top: '-300vh',
         right: '0vw',
         bottom: '200vh',
@@ -177,7 +177,7 @@ $(".link-down").click(function () {
 
 // BUTTON DROIT
 $(".link-right").click(function () {
-    $(".section-up").animate({
+    $(".section.image").animate({
         top: '-100vh',
         right: '100vw',
         bottom: '100vh',
@@ -214,7 +214,7 @@ $(".link-right").click(function () {
 
 // BUTTON GAUCHE
 $(".link-left").click(function () {
-    $(".section-up").animate({
+    $(".section.image").animate({
         top: '-100vh',
         right: '-100vw',
         bottom: '100vh',
