@@ -6,17 +6,17 @@ $(".link-up").click(function () {
 });
 $(".link-down").click(function () {
     $(".html").css({
-        backgroundColor: ' #5F8C4A',
+        backgroundColor: '#8b6804',
     });
 });
 $(".link-left").click(function () {
     $(".html").css({
-        backgroundColor: '#413F73',
+        backgroundColor: '#51048b',
     });
 });
 $(".link-right").click(function () {
     $(".html").css({
-        backgroundColor: '#D9B589',
+        backgroundColor: '#048b34',
     });
 });
 $(".link-home").click(function () {

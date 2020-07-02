@@ -3,7 +3,7 @@
 }
 
 @import 'center.scss';
-@import 'up.scss';
+@import 'section.scss';
 @import 'form.scss';
 @import 'navigation.scss';
 
@@ -105,5 +105,25 @@ body, .section-article-content { scroll-behavior: smooth }
             }
         }
 
+    }
+}
+.image{
+    .section-article-content{
+        border: 3px solid #04498b !important;
+    }
+}
+.web{
+    .section-article-content{
+        border: 3px solid #048b34 !important;
+    }
+}
+.audio{
+    .section-article-content{
+        border: 3px solid #51048b !important;
+    }
+}
+.video{
+    .section-article-content{
+        border: 3px solid #8b6804 !important;
     }
 }

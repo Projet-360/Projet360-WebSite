@@ -19,12 +19,22 @@
         -ms-flex-align: center;
         align-items: center;
 
+        .section-article-content.image{
+            border: 3px solid #04498b;
+        }
 
+
+        .section-article-content.audio{
+            border: 3px solid #04498b;
+        }
+        .section-article-content.video{
+            border: 3px solid #04498b;
+        }
 
         .section-article-content {
             width: 90vw;
             height: 90vh;
-            border: 3px solid #04498b;
+            border: 3px solid white;
             overflow: auto;
             color: white;
 
