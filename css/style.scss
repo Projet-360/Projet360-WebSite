@@ -56,8 +56,8 @@ body, .section-article-content { scroll-behavior: smooth }
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: rgba(0, 0, 0, 0.2);
-        border: solid rgb(231, 231, 231) 4px;
+        background-color: rgba(0, 0, 0, 0);
+        border: solid rgb(231, 231, 231) 1px;
         border-radius: 5px;
 
     }

@@ -46,7 +46,6 @@
             width: 40vw;
             height: auto;
             animation: rotate 150s linear infinite;
-            filter: invert(1);
             z-index: 1;
         }
 
@@ -140,9 +139,11 @@
 
                                 .section-center-article-content-box-item-content-link-content-description{
                                     font-size: x-small;
-                                    width: 60%;
+                                    width: 40%;
                                     font-family: "Raleway";
                                     font-weight: 300;
+                                    text-align: justify;
+                                    display: none;
                                 }
                             }
                         }
