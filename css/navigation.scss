@@ -80,6 +80,22 @@
 }
 
 
+@media screen and (max-width: 769px) {
+    .section-article-navposition {
+        top: 0vh;
+        left: 2vw;
+    }
+    
+    .section-article-navpage  {
+        bottom: 0px;
+        right: 5vw;
+    }
+}
+
+
+
+
+@media screen and (min-width: 769px) {
 .image {
     .section-article-navposition {
         bottom: 7vh;
@@ -145,4 +161,5 @@
     top: 7vh;
     right: 2vw;
     }
+}
 }
