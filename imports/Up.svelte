@@ -6,10 +6,8 @@
                 <div class="section-article-content-first-content">
                     <h1 class="section-row-content-first-content-title">Le graphisme <br />en digital &
                         print</h1>
-                    <p class="section-row-content-first-content-subtitle">Lorem ipsum dolor sit, amet
-                        consectetur
-                        adipisicing elit. Excepturi, sapiente autem at nobis quae nulla mollitia obcaecati
-                        nam quam.
+                    <p class="section-row-content-first-content-subtitle">
+                        Bienvenue dans la partie image. Içi je crée le design graphique de votre projet. Il peut s'agir de logos ou de flyers, charte graphique, carte de visite et bien d'autres.
                     </p>
                     <a class="btn">
                         <svg>
@@ -31,7 +29,7 @@
                     <h2 class="section-article-content-second-left-title">à propos</h2>
                     <h3 class="section-article-content-second-left-text">Je m'appelle Pierre FABIEN. Je propose
                         mes services de graphiste print et web en
-                        freelance. Toutefois je ne suis pas un illustrateur non plus. Je propose donc un
+                        freelance. Toutefois je ne suis pas un illustrateur 'dessinateur' non plus. Je propose donc un
                         ensemble de services ayant pour objectif la création d'une communication globale,
                         pour des entreprises ou des projets originaux. La réalisation de logos, cartes de
                         visite, chartes graphiques et packaging fait partie des mes compétences et vous

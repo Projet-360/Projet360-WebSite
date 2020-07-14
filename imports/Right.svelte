@@ -5,10 +5,9 @@
             <div id="WebAccueil" class="section-article-content-first">
                 <div class="section-article-content-first-content">
                     <h1 class="section-row-content-first-content-title">Un site web pas comme les autres</h1>
-                    <p class="section-row-content-first-content-subtitle">Lorem ipsum dolor sit, amet
-                        consectetur
-                        adipisicing elit. Excepturi, sapiente autem at nobis quae nulla mollitia obcaecati
-                        nam quam. <br>
+                    <p class="section-row-content-first-content-subtitle">
+                        Içi nous pouvons créer des sites ou applications qui peuvent sortir des conventions. Un site sur mesure
+                        avec un design et des traitements de données personnalisés.
                     </p>
                     <a class="btn">
                         <svg>

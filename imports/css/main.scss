@@ -8,10 +8,7 @@
 @import 'navigation.scss';
 @import 'ChangeColor.scss';
 @import 'button.scss';
-
-@import 'carousel.scss';
-
-
+@import 'loader.scss';
 
 .section-article-content {
     scroll-behavior: smooth
@@ -54,6 +51,12 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.section-article-content {
+    scrollbar-color: #87ceeb #ffffff00;
+    scrollbar-width: thin;
+    scrollbar-border: thin;
+}
+
 // FIN SCROLLBAR
 
 // 
@@ -74,7 +77,6 @@ body {
         height: 100vh;
         transition: background-color 2s;
         background-color: #1a0331;
-
         background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(255, 255, 255, 0)));
         background: -o-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
         background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
@@ -107,5 +109,4 @@ body {
             display: none;
         }
     }
-
 }

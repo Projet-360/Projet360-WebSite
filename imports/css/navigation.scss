@@ -96,7 +96,7 @@
 @media screen and (min-width: 769px) {
     .image {
         .section-article-navposition {
-            bottom: 7vh;
+            bottom: 10vh;
             left: 2vw;
             -webkit-flex-direction: column-reverse !important;
             -ms-flex-direction: column-reverse !important;
@@ -112,7 +112,7 @@
     .web {
         .section-article-navposition {
             top: 0px;
-            left: 5vw;
+            left: 10vw;
         }
 
         .section-article-navpage {
@@ -127,7 +127,7 @@
 
     .video {
         .section-article-navposition {
-            top: 7vh;
+            top: 10vh;
             right: 2vw;
             -webkit-flex-direction: column !important;
             -ms-flex-direction: column !important;
@@ -149,14 +149,15 @@
             -webkit-flex-direction: row-reverse;
             -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+            align-items: flex-end !important;
         }
 
         .section-article-navpage {
             -webkit-flex-direction: column !important;
             -ms-flex-direction: column !important;
             flex-direction: column !important;
-            align-items: flex-start !important;
-            bottom: 7vh;
+            align-items: flex-end !important;
+            bottom: 10vh;
             right: 2vw;
         }
     }
