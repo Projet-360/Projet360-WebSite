@@ -8,7 +8,10 @@
 @import 'navigation.scss';
 @import 'ChangeColor.scss';
 @import 'button.scss';
-@import 'loader.scss';
+
+@import 'carousel.scss';
+
+
 
 .section-article-content {
     scroll-behavior: smooth
@@ -51,12 +54,6 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.section-article-content {
-    scrollbar-color: #87ceeb #ffffff00;
-    scrollbar-width: thin;
-    scrollbar-border: thin;
-}
-
 // FIN SCROLLBAR
 
 // 
@@ -77,6 +74,7 @@ body {
         height: 100vh;
         transition: background-color 2s;
         background-color: #1a0331;
+
         background: -webkit-gradient(linear, left top, left bottom, from(rgb(0, 0, 0)), to(rgba(255, 255, 255, 0)));
         background: -o-linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
         background: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0));
@@ -109,4 +107,44 @@ body {
             display: none;
         }
     }
+
+}
+
+.section-article-background{ 
+    background-image: url(../svg/imagebg.svg);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -60vh;
+    right: 10vw;
+    width: 160vh;
+    height: 160vh;
+    transform: rotate(118deg);
+    z-index: 0;
+
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 400000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 400000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 400000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(3600deg);
+   }
+
+   @-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }

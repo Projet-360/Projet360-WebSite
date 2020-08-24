@@ -20,6 +20,7 @@
 
 
     position: absolute;
+    z-index: 10;
 
 
     .section-article-navpage-link {
@@ -59,6 +60,7 @@
 
 
     position: absolute;
+    z-index: 10;
 
 
 
@@ -96,7 +98,7 @@
 @media screen and (min-width: 769px) {
     .image {
         .section-article-navposition {
-            bottom: 10vh;
+            bottom: 7vh;
             left: 2vw;
             -webkit-flex-direction: column-reverse !important;
             -ms-flex-direction: column-reverse !important;
@@ -112,7 +114,7 @@
     .web {
         .section-article-navposition {
             top: 0px;
-            left: 10vw;
+            left: 5vw;
         }
 
         .section-article-navpage {
@@ -127,7 +129,7 @@
 
     .video {
         .section-article-navposition {
-            top: 10vh;
+            top: 7vh;
             right: 2vw;
             -webkit-flex-direction: column !important;
             -ms-flex-direction: column !important;
@@ -149,15 +151,14 @@
             -webkit-flex-direction: row-reverse;
             -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
-            align-items: flex-end !important;
         }
 
         .section-article-navpage {
             -webkit-flex-direction: column !important;
             -ms-flex-direction: column !important;
             flex-direction: column !important;
-            align-items: flex-end !important;
-            bottom: 10vh;
+            align-items: flex-start !important;
+            bottom: 7vh;
             right: 2vw;
         }
     }

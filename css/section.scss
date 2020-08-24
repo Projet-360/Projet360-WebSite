@@ -1,4 +1,5 @@
 .section {
+    transition: 1s all ease;
     .section-article {
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -32,6 +33,7 @@
         }
 
         .section-article-content {
+            z-index: 10;
             width: 90vw;
             height: 90vh;
             border: 3px solid white;
