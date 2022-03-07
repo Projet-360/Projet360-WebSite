@@ -2,6 +2,26 @@
     touch-action: none;
 }
 
+@font-face {
+    font-family: "CustomFont";
+    src: url("font/Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("font/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("font/Cormorant/Cormorant-VariableFont_wght.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("font/Comfortaa/Comfortaa-VariableFont_wght.ttf") format("ttf");
+}
+
 @import 'center';
 @import 'section';
 @import 'form';
