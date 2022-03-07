@@ -1,5 +1,3 @@
-* { -ms-touch-action: none; touch-action: none; }
-
 @font-face { font-family: "CustomFont"; src: url("font/Raleway/Raleway-VariableFont_wght.ttf") format("ttf"); }
 
 @font-face { font-family: "CustomFont"; src: url("font/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf"); }
@@ -42,7 +40,7 @@
 
 .section.center .section-center-article .section-center-article-content .section-center-article-content-box .section-center-article-content-box-item .section-center-article-content-box-item-content .section-center-article-content-box-item-content-link .section-center-article-content-box-item-content-link-content .section-center-article-content-box-item-content-link-content-subtitle { font-size: 3vw; margin: 0px; font-family: "Raleway"; font-weight: 400; }
 
-.section.center .section-center-article .section-center-article-content .section-center-article-content-box .section-center-article-content-box-item .section-center-article-content-box-item-content .section-center-article-content-box-item-content-link .section-center-article-content-box-item-content-link-content .section-center-article-content-box-item-content-link-content-description { font-size: 17px; width: 50%; font-family: "Raleway"; font-weight: 300; text-align: center; }
+.section.center .section-center-article .section-center-article-content .section-center-article-content-box .section-center-article-content-box-item .section-center-article-content-box-item-content .section-center-article-content-box-item-content-link .section-center-article-content-box-item-content-link-content .section-center-article-content-box-item-content-link-content-description { font-size: 17px; width: 50%; font-family: "Raleway"; font-weight: 300; text-align: center; display: none; }
 
 @media screen and (max-width: 1000px) { .section.center .section-center-article .section-center-article-content .section-center-article-content-box .section-center-article-content-box-item .section-center-article-content-box-item-content .section-center-article-content-box-item-content-link .section-center-article-content-box-item-content-link-content .section-center-article-content-box-item-content-link-content-description { display: none; } }
 
@@ -154,7 +152,7 @@ form textarea:focus ~ .highlight { -webkit-animation: inputHighlighter 0.3s ease
 
 .section-article-navpage .section-article-navpage-link .section-article-navpage-link-img { height: 50px; width: auto; -webkit-transition: all .5s ease; transition: all .5s ease; margin: 10px; }
 
-.section-article-navpage .section-article-navpage-link .section-article-navpage-link-img:hover { cursor: pointer; height: 150px; }
+.section-article-navpage .section-article-navpage-link .section-article-navpage-link-img:hover { cursor: pointer; height: 70px; }
 
 .section-article-navposition { display: -ms-flexbox; display: -webkit-box; display: flex; -ms-flex-direction: row; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-direction: row; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -ms-flex-pack: justify; -webkit-box-pack: justify; justify-content: space-between; -ms-flex-line-pack: stretch; align-content: stretch; -ms-flex-align: flex-start; -webkit-box-align: start; align-items: flex-start; position: absolute; z-index: 10; }
 
@@ -162,7 +160,7 @@ form textarea:focus ~ .highlight { -webkit-animation: inputHighlighter 0.3s ease
 
 .section-article-navposition .section-article-navposition-link .section-article-navposition-link-img { height: 50px; width: auto; -webkit-transition: all .5s ease; transition: all .5s ease; margin: 10px; }
 
-.section-article-navposition .section-article-navposition-link .section-article-navposition-link-img:hover { cursor: pointer; height: 150px; }
+.section-article-navposition .section-article-navposition-link .section-article-navposition-link-img:hover { cursor: pointer; height: 70px; }
 
 @media screen and (max-width: 769px) { .section-article-navposition { top: 0vh; left: 2vw; }
   .section-article-navpage { bottom: 0px; right: 5vw; } }
