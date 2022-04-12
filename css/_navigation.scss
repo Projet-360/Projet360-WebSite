@@ -53,28 +53,74 @@
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: flex-start;
-    align-items: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
 
 
     position: absolute;
     z-index: 10;
 
+    &:hover {
+        .section-article-navposition-link {           
+            &:nth-of-type(2) {
+                opacity: 1 !important;
+                transform: translate(0, 25px);
+            }
+            
+            &:nth-of-type(3) {
+                opacity: 1 !important;
+                transform: translate(25px, 0);
+            }
+            
+            &:nth-of-type(4) {
+                opacity: 1 !important;
+                transform: translate(-25px, 0px);
+            }
 
+            &:nth-of-type(5) {
+                opacity: 1 !important;
+                transform: translate(0px, -25px);
+            }
+        }
+    }
+    
 
     .section-article-navposition-link {
+        transition: all .5s ease;
         font-size: 0px !important;
+        position: absolute;
+
+        &:nth-of-type(2) {
+            opacity: 0 !important;
+            transform: translate(0, 0);
+        }
+
+        &:nth-of-type(3) {
+            opacity: 0 !important;
+            transform: translate(0, 0);
+        }
+        
+        &:nth-of-type(4) {
+            opacity: 0 !important;
+            transform: translate(0, 0);
+        }
+
+        &:nth-of-type(5) {
+            opacity: 0 !important;
+            transform: translate(0, 0);
+        }
+
         .section-article-navposition-link-img {
-            height: 50px;
+            height: 25px;
             width: auto;
             transition: all .5s ease;
             margin: 10px;
 
             &:hover {
                 cursor: pointer;
-                height: 70px;
-            }
+                height: 25px;
+            }            
         }
     }
 }
@@ -98,8 +144,8 @@
 @media screen and (min-width: 769px) {
  
         .section-article-navposition {  
-            top: 30vh;
-            left: 0vw;
+            bottom: 100px;
+            right: 100px;
             flex-direction: column;
         }
 
